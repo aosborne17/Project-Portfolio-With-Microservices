@@ -28,3 +28,9 @@ img {
     max-height: 50%;
 }
 
+.container-1, .container-2, .container-3 {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+
+}

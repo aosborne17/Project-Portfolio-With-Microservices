@@ -30,3 +30,9 @@
 // app.listen(8000, () => {
 //     console.log('Example app listening on port 8000!')
 // })
+
+
+// This function once run redirects the user to the games menu page
+function loadGames() {
+    location.href = 'games.html';
+}
