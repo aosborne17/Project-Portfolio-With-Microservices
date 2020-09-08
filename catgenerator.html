@@ -6,7 +6,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Linking css file in folder -->
-    <link rel="stylesheet" href="static/css/games.css">
+    <link rel="stylesheet" href="static/css/catgenerator.css">
 
 
     <title>Project Portfolio</title>
@@ -55,28 +55,16 @@
 </head>
 
 <body>
-<!-- 
-    Creating containers to hold the images that will show the JavaScript games people can play -->
 
-    
-    <div class="container-1" id="container-1">
-        <h4>
-            Wanna see random cat pictures? You've come to the right place, click on the image!
-        </h4>
-        <img src="static/images/cat-generator-pic.png" onClick="catPage()">
-
-    </div>
-    
-    <div class="container-2" id="container-2">
-        <h4>
-            How about a game of rock, paper, scissors
-        </h4>
-        <img src="static/images/cat-generator-pic.png">
-
+    <div class="container-1">
+        <h2>Cat Generator</h2>
+        <button class="btn btn-success" id="cat-generator" onClick="generateCat()">Generate Cat</button>
+        <div class="flex-box-container-1" id="flex-cat-gen">
+        </div>
     </div>
 
 
-    <script src="static/js/games.js"></script>
+    <script src="static/js/catgenerator.js"></script>
     
 </body>
 </html>
